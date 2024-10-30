@@ -1,0 +1,120 @@
+#main {
+    max-width: 600px; 
+    margin: 0 auto;
+    text-align: left;
+    flex: 1;
+  }
+  h1 {
+    width: 100%;
+    height: 70px;
+    background-color: #FF9CCD;
+    text-align: center;
+    font-size: 50px;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: FFE5EC;
+    color: #000000;
+    font-family: "Cormorant Garamond", sans-serif;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  
+  }
+  
+  h3 { 
+    font-weight: bold;
+    font-size: 30px
+  }
+  
+  hr {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 600px;
+    color: #3b3b3b 
+  } 
+  
+  figcaption { 
+    text-align: center
+  }
+  
+  .description { 
+    margin: 15px 0 5px 0;
+    text-align: center;
+  }
+  
+  .opening-night { 
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 600px;
+  }
+  
+  .timeline { 
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul { 
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    list-style: none;
+  }
+  
+  li { 
+    margin: 16px 0;
+  }
+  .awards { 
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 600px;
+  }
+  
+  .smile { 
+    width: 300px;
+  }
+  
+  .container { 
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+  .image {
+    max-width: 100%;
+    max-height:100%;
+    float: left;
+  }
+  
+  .text {
+    font-size: 25px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  #page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;  
+  }
+   
+   footer { 
+     padding: 10px;
+     text-align: center
+   }
